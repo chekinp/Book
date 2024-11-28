@@ -26,7 +26,7 @@
 .main_title{
 	display: flex;
 	justify-content: center;
-	margin: 20px 0 20px 0;
+	margin: 20px 0 20px 10px;
 	font-size: 34px;
 }
 .book{
@@ -34,10 +34,12 @@
 }
 .card{
 	border-radius: 15px;
-	border: 2px solid black;
+	border: 1px solid black;
 	width: 340px;
 	padding: 10px;
 	margin-bottom: 30px;
+	background-color: #f3faff;
+	box-shadow: 0 3px 10px #444;
 }
 .row{
 	display: flex;
@@ -58,7 +60,7 @@
 	color: black;
 	margin: 10px;
 }
-.buy:hover{
+.buy :hover{
 	color: blue;
 }
 .pashal{
@@ -79,4 +81,7 @@
 }
 .footer-main a:hover{
 	color: #040F16;
+}
+.author{
+	font-family: Brush Script MT, Brush Script Std, cursive;
 }
